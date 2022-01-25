@@ -15,13 +15,45 @@ public class Esercizio2ITipiPrimitiviNumericiLaVendetta {
 
         Vedi esempio:
          */
+//
+//        Scanner input = new Scanner(System.in);
+//        System.out.println("Inserisci il primo numero :");
+//        int primoNumero = input.nextInt();
+//        System.out.println("Inserisci il secondo numero :");
+//        int secondoNumero = input.nextInt();
+//        System.out.println("La somma è " + (primoNumero + secondoNumero));
+//        input.close();
 
-        Scanner input = new Scanner(System.in);
-        System.out.println("Inserisci il primo numero :");
-        int primoNumero = input.nextInt();
-        System.out.println("Inserisci il secondo numero :");
-        int secondoNumero = input.nextInt();
-        System.out.println("La somma è " + (primoNumero + secondoNumero));
-        input.close();
+        Scanner imput = new Scanner(System.in);
+        System.out.println("inserisci un aggettivo");
+
+        String teone = imput.next();
+        System.out.println("inserisci una realtà di fatto:");
+        String sarina =imput.next() ;
+
+//        System.out.println("metti il primo numero" + teone);
+//        System.out.println("metti il secondo" + sarina);
+//        System.out.println("la somma dei due fratelli fa caha "+ (teone+sarina));
+
+        System.out.println("questo definisce che beppe è un genius di proporzioni bibliche" + "é un " + teone + " ma anche un "+ sarina);
+        imput.close();
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
     }
-}
+      }

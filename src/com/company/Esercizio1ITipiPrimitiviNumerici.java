@@ -10,22 +10,36 @@ public class Esercizio1ITipiPrimitiviNumerici {
         4 - divisione
 
         Usa tutti i data structure che conosci (qui un elenco):
-        - byte
-        - short
-        - int
-        - long
+        - byte - 8 bit
+        - short - 16 bit
+        - int - 32 bit
+        - long - 64 bit
 
-        - float
-        - double
+
+
+        - float - 32 bit
+        - double - 64 bit
 
 
         Vedi esempio:
          */
 
-        int primoNumero = 10;
-        int secondoNumero = 10;
+        int primaCifra = 500;
+        int secondaCifra = 7890;
 
-        System.out.println("Addizione = " + (primoNumero + secondoNumero));
+        int somma = primaCifra + secondaCifra;
+
+        System.out.println( "che esercizio di merda diocane che palle, potevi impegnarti di piu henry "  + somma);
+
+        System.out.println(primaCifra * secondaCifra + " pelato demmerda!");
+
+        System.out.println(primaCifra - secondaCifra +  " chutlu for president " + secondaCifra / primaCifra + " teone fatti il vaccino dhn! " + primaCifra * secondaCifra + " puppa ");
+
+
+
+
+
+
 
     }
 }

@@ -10,8 +10,14 @@ public class Esercizio4ITipiPrimitiviBooleani {
         boolean vero = true;
         boolean falso = false;
 
-        int a = 2;
+        double a = Math.sqrt(1234564);
         int b = 3;
+
+//        b= 4;
+
+        for (int i = 0; i < 10; i++) {
+            b++;
+        }
 
         System.out.println(a + " è maggiore di " + b + "? " + (a > b));
 
